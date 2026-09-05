@@ -1,0 +1,8 @@
+# Godot 4+ editor/import cache
+.godot/
+
+# Build output (HTML5 export) — regenerate via export rather than committing 35MB wasm
+build/
+
+# Screenshots in build/ are ignored via build/; keep the repo's own tetris_ingame.png
+*.log
