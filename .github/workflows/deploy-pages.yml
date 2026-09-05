@@ -24,8 +24,9 @@ jobs:
       - name: Setup Godot 4.3
         uses: chickensoft-games/setup-godot@v2
         with:
-          version: "4.3"
+          version: "4.3.0"
           use-dotnet: false
+          include-templates: true
 
       - name: Import project (generate .godot cache + icon imports)
         run: godot --headless --import --path .
